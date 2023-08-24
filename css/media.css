@@ -1,0 +1,90 @@
+@media (max-width: 768px) {
+	main {
+		height: 100svh;
+	}
+
+	.portrait {
+		max-height: 300px;
+	}
+
+	.modal {
+		max-width: 350px;
+	}
+
+	.modal input {
+		max-width: 200px;
+	}
+
+	.item span {
+		color: #eeeeee;
+		background-color: var(--fiol-color);
+		font-size: 16px;
+		line-height: 1;
+	}
+
+	.item:focus span {
+		background-color: var(--primary-color);
+	}
+
+	.social {
+		margin-left: 0;
+	}
+
+	.social svg {
+		margin-left: 0;
+		display: none
+	}
+
+	.social img {
+		filter: invert(19%) sepia(68%) saturate(5902%) hue-rotate(254deg) brightness(95%) contrast(111%);
+	}
+
+	.intut {
+		font-size: 14px;
+		width: 135px;
+	}
+
+	.copy-button {
+		font-size: 12px;
+		color: var(--fiol-color);
+	}
+
+	.social a, .logout, .save {
+		color: var(--fiol-color);
+	}
+
+	.main-content form {
+		padding: 20px;
+	}
+}
+
+@media (max-width: 462px) {
+	li {
+		width: 150px;
+		height: 150px;
+	}
+	li:hover,
+	li:focus {
+		box-shadow: 1px 2px 30px -11px rgba(0, 0, 0, 0.75);
+		-webkit-box-shadow: 1px 2px 30px -11px rgba(0, 0, 0, 0.75);
+		-moz-box-shadow: 1px 2px 30px -11px rgba(0, 0, 0, 0.75);
+		height: 170px;
+		z-index: 20;
+	}
+	.wish {
+		left: 20px;
+	}
+}
+
+@media (max-height: 462px) {
+	.portrait {
+		max-width: 250px;
+	}
+	li {
+		max-width: 200px;
+		max-height: 200px;
+	}
+	.main-content {
+		margin-top: 130px;
+	}
+}
